@@ -1,9 +1,14 @@
 name = 'my-webhook-debouncer'
 type = 'javascript'
+compatibility_date = '2021-09-27'
 account_id = ''
 zone_id = ''
 route = ''
 workers_dev = true
+
+kv_namespaces = [
+  { binding = 'RECORD', id = '' }
+]
 
 [build]
 command = 'yarn build'
