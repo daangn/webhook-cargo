@@ -1,0 +1,12 @@
+name = 'my-webhook-debouncer'
+type = 'javascript'
+account_id = ''
+zone_id = ''
+route = ''
+workers_dev = true
+
+[build]
+command = 'yarn build'
+
+[build.upload]
+format = 'service-worker'

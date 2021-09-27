@@ -1,0 +1,16 @@
+{
+  "name": "webhook-debouncer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "wrangler": "wrangler",
+    "build": "esbuild src/worker.ts --bundle --format=esm --outfile=dist/worker.js"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.2",
+    "@cloudflare/wrangler": "^1.19.3",
+    "esbuild": "^0.13.2"
+  }
+}
